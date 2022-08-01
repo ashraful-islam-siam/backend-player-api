@@ -1,0 +1,44 @@
+GET http://localhost:4000/health
+
+###
+POST http://localhost:4000/
+Content-Type: application/json
+
+{
+    "name": "Siam",
+    "country": "Bangladesh",
+    "rank": 2
+}
+
+###
+GET http://localhost:4000/
+
+###
+GET http://localhost:4000/KOC6LDJJc
+
+###
+GET http://localhost:4000/F6wx9UcT-
+
+###
+PATCH http://localhost:4000/KOC6LDJJc
+Content-Type: application/json
+
+{
+    "name": "Siam Hawlader"
+}
+
+###
+PUT http://localhost:4000/KOC6LDJJc
+Content-Type: application/json
+{
+    "name": "Siam"
+}
+
+###
+PUT http://localhost:4000/F6wx9Uhj
+Content-Type: application/json
+{
+    "name": "Shakib",
+    "country": "BD",
+    "rank": 1
+}
